@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+#form {
+    max-width: 555px;
+    height: 100vh;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #30A2C5 0%, rgba(255, 255, 255, 0) 100%), #00242F;
+    border-radius: 50px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-around;
+    padding: 31px 0 25px 0;
+}
+
+.inputText {
+    caret-color: transparent;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    border: 3px solid #30A2C5;
+}
+
+.inputText.error::placeholder {
+    color: red;
+}
+
+#btn {
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 3px solid #30A2C5;
+    color: #30A2C5;
+    transition: 0.7s all;
+}
+
+#btn:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+
+.names {
+    padding: 0 30px;
+}
+
+.name {
+    text-align: center;
+}
+
+.nameCity {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.regionCity {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 18px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.info-title.open-info {
+    width: 240px;
+    height: 240px;
+    background: #d2dada;
+    box-shadow: 0 28px 36px rgba(96, 209, 234, 0.4);
+    border-radius: 50%;
+    margin: 0 auto;
+    color: #000;
+}
+
+.tempCity {
+    font-weight: 300;
+    font-size: 88px;
+    line-height: 122px;
+    text-align: center;
+    padding-top: 69px;
+}
+
+.weatherCity {
+    text-align: center;
+    font-weight: 600;
+}
+
+.img1 {
+    position: absolute;
+    top: 173px;
+    height: 120px;
+    margin-left: 60px;
+}
+
+.other {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    padding-bottom: 8px;
+}
+
+.title {
+    display: none;
+}
+
+.title.open-info {
+    display: flex;
+    padding-top: 31px;
+}
+
+.info-other {
+    width: 50%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-other span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
